@@ -1,0 +1,28 @@
+.container {
+    background-color:blue;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    line-height: 100px;
+
+}
+
+div[class^="box"] {
+    color: white;
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    font-size: 25px;
+    border: 1 solid black;
+}
+.box3>input{padding: 20px 80px;width: ;}
+
+.box8{border: 1 solid black;}
+.img{vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+text-align: right;}
+.box9{text-align: left;}
+}

@@ -1,0 +1,57 @@
+.container {
+    width: 2000px;
+    height: 200vh;
+    background-color: brown;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 2000px;
+    height: 200vh;
+    background-color: antiquewhite;
+    /* justify-content: space-evenly ; */
+    color: aliceblue;
+    padding: 20px;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+div[class^="box"] {
+    width: 300px;
+    height: 510px;
+    border: ridge;
+    background-color: cornsilk;
+    color: black;
+    margin: 20px 0px;
+}
+
+hr {
+    margin: 0px 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+
+
+}
+
+div[class^="chanhop"] {
+    width: 200px;
+    height: 80px;
+    line-height: 100px;
+    padding: 10px 10px;
+}
+
+.button {
+    padding: 15px 25px;
+
+
+}
